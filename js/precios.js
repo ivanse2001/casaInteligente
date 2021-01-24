@@ -4,7 +4,7 @@ function cargarElementos(){
     $.ajax({
         method: "GET",
         dataType : 'json',
-        url: "/js/elementos.json"
+        url: "elementos.json"
         })
         .done(function( datos ) {
             // Una vez que tenemos en la variable datos la información del JSON
