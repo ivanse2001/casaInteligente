@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una casa inteligente · Resumen</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/icomoon/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+</head>
+
+<body onload="mostrarLista()">
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+    <header>
+        <div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-menu"></span></a>
+		</div>
+        <nav>
+            <ul>
+                <li><a href="JS.html">JS</a></li>
+                <li><a href="Valoracion.html">Valoración</a></li>
+                <li><a href="Resumen.html">Resumen</a></li>
+                <li><a href="Precios.html">Precios</a></li>
+                <li><a href="Desventajas.html">Desventajas</a></li>
+                <li><a href="Beneficios.html">Beneficios</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Construccion.html">Construcción</a></li>
+                <li><a href="QueEs.html">¿Qué es?</a></li>
+                <li><a href="../index.html"><strong>Inicio</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contenido wrapper">
+            <div id="resumen">
+                <div id="general">
+                    <h2>Resumen general.</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Tu-yXNSdaws?controls=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div id="prosYcontras">
+                    <h2>Resumen pros y contras.</h2>
+                        <div id="tabla-resumen">
+                            <table>
+                                <tr>
+                                    <th>Ventajas</th>
+                                    <th>Desventajas</th>
+                                </tr>
+                                <tr>
+                                    <td>Comodidad</td>
+                                    <td>Desembolso de dinero</td>
+                                </tr>
+                                <tr>
+                                    <td>Seguridad</td>
+                                    <td>Poca familiaridad con la tecnología</td>
+                                </tr>
+                                <tr>
+                                    <td>Mayor accesibilidad</td>
+                                    <td>Seguridad informática y privacidad</td>
+                                </tr>
+                                <tr>
+                                    <td>Eficiencia energética</td>
+                                    <td>Dependencia de conexión</td>
+                                </tr>
+                                <tr>
+                                    <td>Valor del inmueble</td>
+                                    <td>Lentitud</td>
+                                </tr>
+                            </table>
+                        </div>
+                </div>
+
+                <div id="lista">
+                    <h2>Lista de deseos.</h2>
+                        <div id="lista-deseos">
+                            <table id="lista-final">
+                                <!--Aquí vendrá la tabla con los elementos elegidos y sus precios-->
+                            </table>
+                        </div>
+                        <div id="precioFinal">
+                            <!--Aquí aparecerá el precio final.-->
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Más cerca de tus sueños.</p>
+    </footer>
+    
+    <script src="../js/precios.js"></script>
+    <script src="../js/estetica.js"></script>
+</body>
+</html>

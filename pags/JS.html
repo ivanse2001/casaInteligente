@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una casa inteligente · JS</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/icomoon/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+    <header>
+        <div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-menu"></span></a>
+		</div>
+        <nav>
+            <ul>
+                <li><a href="JS.html">JS</a></li>
+                <li><a href="Valoracion.html">Valoración</a></li>
+                <li><a href="Resumen.html">Resumen</a></li>
+                <li><a href="Precios.html">Precios</a></li>
+                <li><a href="Desventajas.html">Desventajas</a></li>
+                <li><a href="Beneficios.html">Beneficios</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Construccion.html">Construcción</a></li>
+                <li><a href="QueEs.html">¿Qué es?</a></li>
+                <li><a href="../index.html"><strong>Inicio</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contenido wrapper">
+            <div id="explicacion">
+                <h2>Explicación JS.</h2>
+                    <div id="volverArriba">
+                        <h3>Botón "volver arriba".</h3>
+                            <p>Haciendo clic en este botón, podrás desplazarte directamente y mediante una suave animación, hacia la parte superior de la página. Este botón no estará presente permanentemente en la web, si no que aparecerá cuando el usuario se desplace lo suficiente hacia abajo en la misma.</p>
+                            <p>Utilizaremos Javascript para trackear el scroll de la página y hacer que aparezca el botón si el usuario ha llegado lo suficientemente abajo. Utilizaremos la función scroll() para saber si se ha hecho scroll o no. Si se ha desplazado más de 100px hacia abajo, el botón aparecerá, de lo contrario, lo ocultaremos.</p>
+                            <p>Una vez se haya hecho clic en el botón, debemos hacer scroll hacia la parte superior de la web. Para ello utilizaremos la función animate() y el evento scrollTop.</p>
+                            <p>Este botón aparecerá abajo a la derecha en todas las páginas de la web en las que el usuario se pueda desplazar 100px hacia abajo.</p>
+                    </div>
+
+                    <div id="menuAdaptable">
+                        <h3>Menú de navegación adaptable.</h3>
+                            <p>Cuando el tamaño de la ventana sea menor que 900px, ya sea al navegar desde un dispositivo con una pantalla menor a dichos pixeles o al minimizar, se producirá un cambio de menú. Cambiará el menú fijo superior por un menú desplegable.</p>
+                            <p>Utilizaremos Javascript para hacer que dicho menú aparezca y desaparezca. Para esto, ordenaremos que cuando se produzca un click en el icono del menú, y el contador sea igual a 1, se anime hacia la derecha el menú, mientras que si es distinto de 1, se oculte.</p>
+                            <p>El menú fijo se encontrará en la parte superior de todas las páginas, mientras que cuando se minimiza, al clickar en el menú, este aparecerá desde la izquierda.</p>
+                    </div>
+
+                    <div id="listaComentarios">
+                        <h3>Lista comentarios.</h3>
+                            <p>En la pestaña de valoración, se podrá añadir los comentarios que se desee, escribiendolos y añadiendolos a una lista que aparecerá justo debajo, mediante Javascript al accionar el botón añadir. Además, también se podrá eliminar tanto un comentario que el usuario seleccione clickando encima, como todos los comentarios añadidos clickando en el botón de eliminar.</p>
+                    </div>
+
+                    <div id="listaDeseos">
+                        <h3>Lista de deseos.</h3> 
+                            <p>En la pestaña precios, se ha creado, mediante Javascript, una tabla con una serie de servicios, sus respectivos precios y un botón para añadirlos a una lista de deseos que se encontrará en el resumen de la página.</p>
+                            <p>Esto será posible gracias al localStorage, en el que guardaremos los datos añadidos desde la tabla de precios, y accederemos a ellos después desde la lista de deseos en la pestaña de resumen.</p>
+                            <p>Utilizaremos Javascript para mostrar los servicios por medio de una tabla, detectar cuando se hace click en el botón de añadir, y por medio de una alerta avisar al usuario de que se ha añadido y donde lo ha hecho, después guardaremos los datos en el localStorage y accederemos a ellos desde la lista deseos, creando una tabla y mostrando el precio de estos, siempre que se haya añadido alguno, y un botón eliminar, que cuando se clicka en él pedirá una confirmación, que si se confirma, eliminará los datos del localStorage y refrescará la página, y mostrará de nuevo para que no halla ningún servicio añadido.</p>
+                    </div>    
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Más cerca de tus sueños.</p>
+    </footer>
+
+    <script src="../js/estetica.js"></script>
+</body>
+</html>

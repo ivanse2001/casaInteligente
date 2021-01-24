@@ -1,0 +1,87 @@
+[
+    {
+        "titulo": "Alexa (Amazon echo)",
+        "especificacion": "a partir de",
+        "precio": 99
+    },
+    {
+        "titulo": "Google Home",
+        "especificacion": "en torno a los",
+        "precio": 99
+    },
+    {
+        "titulo": "HomePod",
+        "especificacion": "por",
+        "precio": 329
+    },
+    {
+        "titulo": "Cámara de vigilancia conectada",
+        "especificacion": "desde",
+        "precio": 38
+    },
+    {
+        "titulo": "Termostato inteligente",
+        "especificacion": "desde",
+        "precio": 34
+    },
+    {
+        "titulo": "Programación del riego",
+        "especificacion": "desde",
+        "precio": 99
+    },
+    {
+        "titulo": "Sensores de movimiento",
+        "especificacion": "desde",
+        "precio": 33
+    },
+    {
+        "titulo": "Sensor de inundaciones",
+        "especificacion": "desde",
+        "precio": 25
+    },
+    {
+        "titulo": "Subir y bajar persianas, motor y enchufe",
+        "especificacion": "desde",
+        "precio": 60
+    },
+    {
+        "titulo": "Bombillas conectadas",
+        "especificacion": "desde",
+        "precio": 16
+    },
+    {
+        "titulo": "Enchufes inteligentes",
+        "especificacion": "desde",
+        "precio": 16
+    },
+    {
+        "titulo": "Cerradura conectada",
+        "especificacion": "desde",
+        "precio": 100
+    },
+    {
+        "titulo": "Lavadora",
+        "especificacion": "desde",
+        "precio": 300
+    },
+    {
+        "titulo": "Frigorífico",
+        "especificacion": "desde",
+        "precio": 749
+    },
+    {
+        "titulo": "Microondas",
+        "especificacion": "desde",
+        "precio": 100
+    },
+    {
+        "titulo": "Horno",
+        "especificacion": "desde",
+        "precio": 300
+    },
+    {
+        "titulo": "Cafetera",
+        "especificacion": "desde",
+        "precio": 250
+    }
+]
